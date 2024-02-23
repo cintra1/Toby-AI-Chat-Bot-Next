@@ -6,6 +6,8 @@ import { Button } from "./ui/button"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./ui/card"
 import { useChat } from 'ai/react';
 import { ScrollArea } from "./ui/scroll-area"
+import { ModeToggle } from "./ModeToggle"
+
 
 export interface ChatProps {}
 
@@ -14,9 +16,14 @@ export function Chat() {
 
     return (
         <Card className="w-[440px]">
-        <CardHeader>
-          <CardTitle>Chat AI</CardTitle>
-          <CardDescription>Using Vercel SDK to create a Chat Bot.</CardDescription>
+        <CardHeader className="grid grid-cols-3">
+          <div className="col-span-2">
+            <CardTitle className="mb-2">Toby AI</CardTitle>
+            <CardDescription>Using Vercel SDK to create a Chat Bot.</CardDescription>
+          </div>
+          <div className="flex justify-end">
+            <ModeToggle />
+          </div>
         </CardHeader>
         <CardContent>
         <ScrollArea className="h-[300px] w-full pr-4">
