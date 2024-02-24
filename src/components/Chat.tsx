@@ -32,14 +32,14 @@ export function Chat() {
                 <div key={message.id} className="flex gap-3 text-slate-600 text-sm mb-4">
                  {message.role === 'user' && (
                     <Avatar>
-                    <AvatarFallback>MC</AvatarFallback>
+                    <AvatarFallback>User</AvatarFallback>
                     <AvatarImage src="https://avatars.githubusercontent.com/u/101955322?v=4"/>
                   </Avatar>
                  )}
 
                 {message.role === 'assistant' && (
                     <Avatar>
-                    <AvatarFallback>MC</AvatarFallback>
+                    <AvatarFallback>AI</AvatarFallback>
                     <AvatarImage src="toby.png"/>
                   </Avatar>
                  )}
@@ -47,7 +47,7 @@ export function Chat() {
                 
                 <p className="leading-relaxed">
                   <span className="block font-bold text-slate-700">
-                    {message.role === 'user' ? 'Usuário' : 'AI'}:</span>
+                    {message.role === 'user' ? 'Usuário' : 'Toby'}:</span>
                   {message.content}
                 </p>
               </div>
