@@ -16,10 +16,16 @@ export function Chat() {
 
     return (
         <Card className="w-[440px]">
-        <CardHeader className="grid grid-cols-3">
-          <div className="col-span-2">
+        <CardHeader className="grid grid-cols-8">
+          <div className="mt-2">
+          <Avatar>
+                    <AvatarFallback>AI</AvatarFallback>
+                    <AvatarImage src="toby.png"/>
+                  </Avatar>
+          </div>
+          <div className="col-span-6 ml-1">
             <CardTitle className="mb-2">Toby AI</CardTitle>
-            <CardDescription>Using Vercel SDK to create a Chat Bot.</CardDescription>
+            <CardDescription>Chat Bot criado com Vercel SDK.</CardDescription>
           </div>
           <div className="flex justify-end">
             <ModeToggle />
@@ -57,8 +63,8 @@ export function Chat() {
         </CardContent>
         <CardFooter>
             <form className="w-full flex gap-2" onSubmit={handleSubmit}>
-                <Input placeholder="How can i help you?" value={input} onChange={handleInputChange}/>
-                <Button type="submit">Send</Button>
+                <Input placeholder="Como posso te ajudar?" value={input} onChange={handleInputChange}/>
+                <Button type="submit">Enviar</Button>
           </form>
         </CardFooter>
       </Card>
