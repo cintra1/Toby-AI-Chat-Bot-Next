@@ -1,6 +1,6 @@
 # Chat Bot - Next, Shadcn/UI, Tailwind CSS, Vercel AI SDK e OpenAI.
 
-https://github.com/cintra1/Chat-Bot-Next/assets/101955322/78915b1c-1b0b-4c2f-9457-629aba9d5b0c
+https://github.com/cintra1/Chat-Bot-Next/assets/101955322/5b632752-a4b8-4e10-a959-65bbeb0cf84b
 
 ![toby-ai-1](https://github.com/cintra1/Chat-Bot-Next/assets/101955322/41edd88c-cb4c-44a9-8cef-2416b3a00319)
 ![toby-ai-2](https://github.com/cintra1/Chat-Bot-Next/assets/101955322/cab2decc-3006-447a-9922-6db3098dc529)
