@@ -52,6 +52,14 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        redded: {
+          DEFAULT: "#f57a7a",
+          foreground: "#f57a7a",
+        },
+        bored: {
+          DEFAULT: "#e81e1e",
+          foreground: "#e81e1e",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
