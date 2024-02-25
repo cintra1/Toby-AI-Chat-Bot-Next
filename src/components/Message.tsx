@@ -1,10 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar"
-import { Input } from "./ui/input"
-import { Button } from "./ui/button"
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./ui/card"
-import { useChat } from 'ai/react';
-import { ScrollArea } from "./ui/scroll-area"
-import { ModeToggle } from "./ModeToggle"
+import { Card } from "./ui/card"
 
 
 export interface MessageProps {}
