@@ -1,5 +1,12 @@
 # Chat Bot - Next, Shadcn/UI, Tailwind CSS, Vercel AI SDK e OpenAI.
 
+
+https://github.com/cintra1/Chat-Bot-Next/assets/101955322/78915b1c-1b0b-4c2f-9457-629aba9d5b0c
+![toby-ai-1](https://github.com/cintra1/Chat-Bot-Next/assets/101955322/41edd88c-cb4c-44a9-8cef-2416b3a00319)
+![toby-ai-2](https://github.com/cintra1/Chat-Bot-Next/assets/101955322/cab2decc-3006-447a-9922-6db3098dc529)
+![toby-ai-3](https://github.com/cintra1/Chat-Bot-Next/assets/101955322/7c0130f9-4fe4-4ae0-b3a9-8ccded90dc93)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
